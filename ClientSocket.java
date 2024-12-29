@@ -5,6 +5,7 @@ import java.net.*;
 
 public class ClientSocket {
     public static void main(String[] args) {
+
         String hostname = "localhost"; // as the server address
         int port = 12345; // Port number
         try (Socket socket = new Socket(hostname, port)) {
